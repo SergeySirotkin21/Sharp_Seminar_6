@@ -5,3 +5,12 @@
 // полученной строке слова должны быть также разделены
 // пробелами.
 // “Hello my world” => “world my Hello”
+
+
+string str = "Hello my World"; 
+string[] strs1 = str.Split(' ');
+foreach (string word in strs1)
+{
+System.Console.Write(word);    
+}
+System.Console.WriteLine(string.Join(" ", strs1));
