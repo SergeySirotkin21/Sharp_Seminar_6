@@ -9,8 +9,5 @@
 
 string str = "Hello my World"; 
 string[] strs1 = str.Split(' ');
-foreach (string word in strs1)
-{
-System.Console.Write(word);    
-}
+Array.Reverse(strs1);
 System.Console.WriteLine(string.Join(" ", strs1));
